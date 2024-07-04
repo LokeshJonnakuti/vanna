@@ -1087,7 +1087,7 @@ class VannaBase(ABC):
 
                 except Exception as e:
                     raise e
-        
+
         self.run_sql_is_set = True
         self.run_sql = run_sql_clickhouse
 

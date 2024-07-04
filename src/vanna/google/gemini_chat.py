@@ -7,7 +7,7 @@ class GoogleGeminiChat(VannaBase):
         VannaBase.__init__(self, config=config)
 
         # default temperature - can be overrided using config
-        self.temperature = 0.7      
+        self.temperature = 0.7
 
         if "temperature" in config:
             self.temperature = config["temperature"]

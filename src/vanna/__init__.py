@@ -49,9 +49,9 @@ Please switch to the following method for initializing Vanna:
 
 from vanna.remote import VannaDefault
 
-api_key = # Your API key from https://vanna.ai/account/profile 
+api_key = # Your API key from https://vanna.ai/account/profile
 vanna_model_name = # Your model name from https://vanna.ai/account/profile
-                    
+
 vn = VannaDefault(model=vanna_model_name, api_key=api_key)
 """)
 
